@@ -1,0 +1,39 @@
+/* ======================================== 
+                Login Page 
+  ========================================*/
+
+#loginContainer {
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FFEBCD;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#loginContainer form {
+    width: 90%;
+}
+
+#loginContainer form input{
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #808080;
+}
+
+#loginContainer form button span{
+    margin-left: 10px;
+}
+
+#loginView footer{
+    text-align: center;
+}
+
+#loginView footer strong{
+    border-radius: 5px;
+    background-color: #87CEEB;
+    padding: 2px;
+    color: #ffffff;
+}

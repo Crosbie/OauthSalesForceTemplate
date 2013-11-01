@@ -1,5 +1,6 @@
 # Node modules used should be installed using NPM per developer.
 node_modules
+cloud/npm-debug.log
 
 # OSX temporary files that should never be committed.
 *.swp
@@ -35,6 +36,7 @@ META-INF/
 
 # Exclude files associated with new fhc local.
 .fhc_local
+.fhclocal
 fhc-debug.log
 
 # We don't want to include duplicated files resulting from any builds; we also

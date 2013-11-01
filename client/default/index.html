@@ -9,7 +9,15 @@
 <body>
     <h3>You app is ready!</h3>
 
-        <script src="scripts/vendor.js"></script>
+    <script>
+        // Namespace
+        var App = App || {};
+        App.views = App.views || {};
+        App.collections = App.collections || {};
+    </script>
 
-        <script src="scripts/app.js"></script>
+    <script src="scripts/vendor.js"></script>
+
+    <script src="scripts/app.js"></script>
+
 </body>

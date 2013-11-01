@@ -1,1 +1,25 @@
 /** css content here **/
+body {
+}
+
+header {
+    text-align: center;
+    height: 60px;
+    position: relative;
+    top: 0;
+    left:0;
+    background-color: #87CEEB;
+    padding-top: 1px;
+}
+
+header img{
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
