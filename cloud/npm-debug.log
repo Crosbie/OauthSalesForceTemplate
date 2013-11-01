@@ -1,0 +1,253 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.2.15
+3 info using node@v0.10.1
+4 verbose read json /Users/ecrosbie/workspace/salesForce/cloud/package.json
+5 warn package.json AppName@0.0.1 No README.md file found!
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/ecrosbie/workspace/salesForce/cloud',
+7 verbose install   [ 'fh-webapp',
+7 verbose install     'fh-api',
+7 verbose install     'express',
+7 verbose install     'limiter',
+7 verbose install     'request',
+7 verbose install     'redis',
+7 verbose install     'mongodb' ] ]
+8 verbose from cache /Users/ecrosbie/workspace/salesForce/cloud/package.json
+9 info preinstall AppName@0.0.1
+10 verbose from cache /Users/ecrosbie/workspace/salesForce/cloud/package.json
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'limiter@*', null ]
+13 verbose cache add name=undefined spec="limiter@*" args=["limiter@*",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'limiter@*',
+14 verbose parsed url   path: 'limiter@*',
+14 verbose parsed url   href: 'limiter@*' }
+15 verbose cache add name="limiter" spec="*" args=["limiter","*"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '*',
+16 verbose parsed url   path: '*',
+16 verbose parsed url   href: '*' }
+17 verbose addNamed [ 'limiter', '*' ]
+18 verbose addNamed [ null, '' ]
+19 verbose cache add [ 'request@*', null ]
+20 verbose cache add name=undefined spec="request@*" args=["request@*",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'request@*',
+21 verbose parsed url   path: 'request@*',
+21 verbose parsed url   href: 'request@*' }
+22 verbose cache add name="request" spec="*" args=["request","*"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '*',
+23 verbose parsed url   path: '*',
+23 verbose parsed url   href: '*' }
+24 verbose addNamed [ 'request', '*' ]
+25 verbose addNamed [ null, '' ]
+26 verbose cache add [ 'express@3.3.4', null ]
+27 verbose cache add name=undefined spec="express@3.3.4" args=["express@3.3.4",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'express@3.3.4',
+28 verbose parsed url   path: 'express@3.3.4',
+28 verbose parsed url   href: 'express@3.3.4' }
+29 verbose cache add name="express" spec="3.3.4" args=["express","3.3.4"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '3.3.4',
+30 verbose parsed url   path: '3.3.4',
+30 verbose parsed url   href: '3.3.4' }
+31 verbose addNamed [ 'express', '3.3.4' ]
+32 verbose addNamed [ '3.3.4', '3.3.4' ]
+33 verbose cache add [ 'redis@0.8.2', null ]
+34 verbose cache add name=undefined spec="redis@0.8.2" args=["redis@0.8.2",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'redis@0.8.2',
+35 verbose parsed url   path: 'redis@0.8.2',
+35 verbose parsed url   href: 'redis@0.8.2' }
+36 verbose cache add name="redis" spec="0.8.2" args=["redis","0.8.2"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '0.8.2',
+37 verbose parsed url   path: '0.8.2',
+37 verbose parsed url   href: '0.8.2' }
+38 verbose addNamed [ 'redis', '0.8.2' ]
+39 verbose addNamed [ '0.8.2', '0.8.2' ]
+40 verbose cache add [ 'mongodb@1.3.12', null ]
+41 verbose cache add name=undefined spec="mongodb@1.3.12" args=["mongodb@1.3.12",null]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'mongodb@1.3.12',
+42 verbose parsed url   path: 'mongodb@1.3.12',
+42 verbose parsed url   href: 'mongodb@1.3.12' }
+43 verbose cache add name="mongodb" spec="1.3.12" args=["mongodb","1.3.12"]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: '1.3.12',
+44 verbose parsed url   path: '1.3.12',
+44 verbose parsed url   href: '1.3.12' }
+45 verbose addNamed [ 'mongodb', '1.3.12' ]
+46 verbose addNamed [ '1.3.12', '1.3.12' ]
+47 verbose cache add [ 'fh-webapp@*', null ]
+48 verbose cache add name=undefined spec="fh-webapp@*" args=["fh-webapp@*",null]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: 'fh-webapp@*',
+49 verbose parsed url   path: 'fh-webapp@*',
+49 verbose parsed url   href: 'fh-webapp@*' }
+50 verbose cache add name="fh-webapp" spec="*" args=["fh-webapp","*"]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: '*',
+51 verbose parsed url   path: '*',
+51 verbose parsed url   href: '*' }
+52 verbose addNamed [ 'fh-webapp', '*' ]
+53 verbose addNamed [ null, '' ]
+54 verbose cache add [ 'fh-api@*', null ]
+55 verbose cache add name=undefined spec="fh-api@*" args=["fh-api@*",null]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'fh-api@*',
+56 verbose parsed url   path: 'fh-api@*',
+56 verbose parsed url   href: 'fh-api@*' }
+57 verbose cache add name="fh-api" spec="*" args=["fh-api","*"]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '*',
+58 verbose parsed url   path: '*',
+58 verbose parsed url   href: '*' }
+59 verbose addNamed [ 'fh-api', '*' ]
+60 verbose addNamed [ null, '' ]
+61 silly lockFile 73f44d34-limiter limiter@*
+62 verbose lock limiter@* /Users/ecrosbie/.npm/73f44d34-limiter.lock
+63 silly lockFile a4c2c8dc-request request@*
+64 verbose lock request@* /Users/ecrosbie/.npm/a4c2c8dc-request.lock
+65 silly lockFile 536d637b-express-3-3-4 express@3.3.4
+66 verbose lock express@3.3.4 /Users/ecrosbie/.npm/536d637b-express-3-3-4.lock
+67 silly lockFile 0e7a726c-redis-0-8-2 redis@0.8.2
+68 verbose lock redis@0.8.2 /Users/ecrosbie/.npm/0e7a726c-redis-0-8-2.lock
+69 silly lockFile 5622fb6d-mongodb-1-3-12 mongodb@1.3.12
+70 verbose lock mongodb@1.3.12 /Users/ecrosbie/.npm/5622fb6d-mongodb-1-3-12.lock
+71 silly lockFile ea316f12-fh-webapp fh-webapp@*
+72 verbose lock fh-webapp@* /Users/ecrosbie/.npm/ea316f12-fh-webapp.lock
+73 silly lockFile 61d9093a-fh-api fh-api@*
+74 verbose lock fh-api@* /Users/ecrosbie/.npm/61d9093a-fh-api.lock
+75 silly lockFile 73f44d34-limiter limiter@*
+76 error Error: EACCES, open '/Users/ecrosbie/.npm/73f44d34-limiter.lock'
+76 error  { [Error: EACCES, open '/Users/ecrosbie/.npm/73f44d34-limiter.lock']
+76 error   errno: 3,
+76 error   code: 'EACCES',
+76 error   path: '/Users/ecrosbie/.npm/73f44d34-limiter.lock' }
+77 error Please try running this command again as root/Administrator.
+78 error System Darwin 13.0.0
+79 error command "node" "/usr/local/bin/npm" "install"
+80 error cwd /Users/ecrosbie/workspace/salesForce/cloud
+81 error node -v v0.10.1
+82 error npm -v 1.2.15
+83 error path /Users/ecrosbie/.npm/73f44d34-limiter.lock
+84 error code EACCES
+85 error errno 3
+86 error stack Error: EACCES, open '/Users/ecrosbie/.npm/73f44d34-limiter.lock'
+87 verbose exit [ 3, true ]

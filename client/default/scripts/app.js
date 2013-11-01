@@ -1,0 +1,1 @@
+var initialize=function(){$fh.init({appid:"<your app id here>",appkey:"<your app key here>",host:"<your app host here>",mode:"<dev || live>"})};window.device&&window.device.cordova?document.addEventListener("deviceready",initialize,!1):$(initialize);
