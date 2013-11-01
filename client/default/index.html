@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Sales Force</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h3>You app is ready!</h3>
+    <header>
+        <h3>Integration</h3>
+        <img src="img/sflogo.png">
+    </header>
+
+    <div id="content">CONTENT</div>
 
     <script>
         // Namespace
@@ -19,5 +24,32 @@
     <script src="scripts/vendor.js"></script>
 
     <script src="scripts/app.js"></script>
+
+    <!-- Login Page template -->
+    <script id="loginTpl" type="text/x-handlebars-template">
+        <div id="loginContainer">
+            <form>
+                <input id="email" type="email" placeholder="Email" required/>
+                <input id="pass" type="password" placeholder="Password" required/>
+                <button id="loginBtn" class="btn btn-success">
+                    Login<span class="glyphicon glyphicon-ok"></span>
+                </button>
+                <button id="clearBtn" class="btn btn-danger">
+                    Clear<span class="glyphicon glyphicon-remove"></span>
+                </button>
+            </form>
+        </div>
+
+        <footer>
+            <h6>Dont have a login, use our <strong>Demo Account</strong></h6>
+        </footer>
+    </script>
+
+     <!-- Home Page template -->
+    <script id="homeTpl" type="text/x-handlebars-template">
+        <div id="homeContainer">
+            <p>Welcome, {{user}}</p>
+        </div>
+    </script>
 
 </body>
